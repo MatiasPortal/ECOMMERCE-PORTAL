@@ -1,0 +1,41 @@
+.navbar-brand {
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.new-products {
+    margin: 90px;
+}
+
+
+.card {
+    margin-top: 3em;
+    margin-left: 5em;
+    border: 2px solid;
+    border-radius: 8px;
+}
+
+
+.btn-añadir {
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 18px;
+    border: 2px solid rgba(1, 1, 1, 0.759);
+}
+
+.btn-carrito {
+    margin-right: 50px;
+    border: 2px solid rgb(137, 132, 132);
+    border-radius: 10px;
+}
+
+
+.contenedor-modal {
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: 70px;
+}
+
+.contenedor-modal .img-carrito {
+    width: 230px;
+}

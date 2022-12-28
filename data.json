@@ -1,0 +1,38 @@
+[
+    {
+        "nombre":"Remera VANS",
+        "precio": 7500,
+        "img": "./imagenes/remera.jpg",
+        "id": 1
+    },
+    {
+        "nombre":"Jean LEVIS",
+        "precio": 18000,
+        "img": "./imagenes/jean.jpg",
+        "id": 2
+    },
+    {
+        "nombre":"Buzo NIKE",
+        "precio": 11000,
+        "img": "./imagenes/buzo.jpg",
+        "id": 3
+    },
+    {
+        "nombre":"Campera NIKE",
+        "precio": 13000,
+        "img": "./imagenes/campera.jpg",
+        "id": 4
+    },
+    {
+        "nombre":"Zapatilla VANS",
+        "precio": 16000,
+        "img": "./imagenes/zapatilla.jpg",
+        "id": 5
+    },
+    {
+        "nombre":"Chomba LACOSTE",
+        "precio": 12000,
+        "img": "./imagenes/chomba.jpg",
+        "id": 6
+    }
+]
