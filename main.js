@@ -23,7 +23,7 @@ const btnLogout = document.querySelector("#btn-logout")
 
 //fetch a data.json.
 const pedirProductos = async() => {
-    const result = await fetch("data.json");
+    const result = await fetch("./data.json");
     const datos = await result.json();
 
     //mostrar productos.
@@ -93,7 +93,7 @@ pedirProductos()
 
 //Armar tabla con productos
 const pedirProductosTabla = async() => {
-    const result = await fetch("data.json");
+    const result = await fetch("./data.json");
     const datos = await result.json();
 
     const armadoTabla = (prod) => {
