@@ -4,47 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IPHONE Ecommerce</title>
-    <!-- toastify -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
-    <!-- css -->
+    <title>ECOMMERCE</title>
     <link rel="stylesheet" href="./CSS/bootstrap.css">
     <link rel="stylesheet" href="./CSS/style.css">
+    <!-- toastify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="./index.html">IPHONE Ecommerce</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarColor01">
-        <ul class="navbar-nav me-auto">
-          <li class="nav-item">
-            <a class="nav-link active" href="./index.html">Home
-              <span class="visually-hidden">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./listado-productos.html">Listado
-              <span class="visually-hidden">(current)</span>
-            </a>
-          </li>
-        </ul>
-        <div id="btn-login">
-          <a href="login.html"><button class="btn btn-info" >LOGIN</button></a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">MI ECOMMERCE</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home
+                  <span class="visually-hidden">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./listado-productos.html">Listado
+                  <span class="visually-hidden">(current)</span>
+                </a>
+              </li>
+            </ul>
+            <div id="btn-login">
+              <a href="login.html"><button class="btn btn-info" >LOGIN</button></a>
+            </div>
+            <div id="show-user">
+            </div>
+            <button type="button" class="btn btn-dark btn-carrito" data-bs-toggle="modal" data-bs-target="#miModal">
+              <i class="fa-solid fa-cart-shopping"></i> <span class="badge text-bg-dark numeroCarrito">0</span>
+              </button>
+            <form class="d-flex">
+            </form>
+          </div>
         </div>
-          <button class="btn btn-danger" id="btn-logout">LOGOUT</button></a>
-        <div id="show-user">
-        </div>
-        <button type="button" class="btn btn-dark btn-carrito" data-bs-toggle="modal" data-bs-target="#miModal">
-          <i class="fa-solid fa-cart-shopping"></i> <span class="badge text-bg-dark numeroCarrito">0</span>
-        </button>
-        <form class="d-flex">
-        </form>
-      </div>
-    </div>
-  </nav>
+      </nav>
 
 
 
@@ -74,15 +72,28 @@
     </div>
   </div>
 
-<h1 class="new-products">NUEVOS PRODUCTOS</h1>
-
-<div class="cant-productos"></div>
+<h1 class="new-products">LISTADO DE PRODUCTOS</h1>
 
 
-<main>
-  <!-- <input type="search" name="buscador" id="buscador" placeholder="Encuentra tu producto"> -->
-  <div class="row mt-5 text-center" id="contenedor"></div>
-</main>
+<div>
+    <input type="search" id="inputSearch" placeholder="ESCRIBE EL PRODUCTO QUE BUSCAS">
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col" class="col-table">ID</th>
+            <th scope="col" class="col-table">NOMBRE</th>
+            <th scope="col" class="col-table">PRECIO</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Id</td>
+            <td>Nombre</td>
+            <td>Precio</td>
+        </tr>
+    </tbody>
+</table>
 
 
 
@@ -140,7 +151,7 @@
 
 <script src="./main.js"></script>
 <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 <!-- sweet alert -->
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <!-- toastify -->

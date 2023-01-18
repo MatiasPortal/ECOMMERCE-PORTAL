@@ -1,38 +1,72 @@
 [
     {
-        "nombre":"Remera VANS",
-        "precio": 7500,
-        "img": "./imagenes/remera.jpg",
+        "nombre":"IPHONE 8 PLUS 128GB",
+        "precio": 500,
+        "img": "./imagenes/iphone8plus.jpg",
+        "cantidad": 1,
         "id": 1
     },
     {
-        "nombre":"Jean LEVIS",
-        "precio": 18000,
-        "img": "./imagenes/jean.jpg",
+        "nombre":"IPHONE X 64GB",
+        "precio": 530,
+        "img": "./imagenes/iphonex.jpg",
+        "cantidad": 1,
         "id": 2
     },
     {
-        "nombre":"Buzo NIKE",
-        "precio": 11000,
-        "img": "./imagenes/buzo.jpg",
+        "nombre":"IPHONE XR",
+        "precio": 550,
+        "img": "./imagenes/iphonexr.jpg",
+        "cantidad": 1,
         "id": 3
     },
     {
-        "nombre":"Campera NIKE",
-        "precio": 13000,
-        "img": "./imagenes/campera.jpg",
+        "nombre":"IPHONE SE SERIE 3",
+        "precio": 680,
+        "img": "./imagenes/iphonese.jpg",
+        "cantidad": 1,
         "id": 4
     },
     {
-        "nombre":"Zapatilla VANS",
-        "precio": 16000,
-        "img": "./imagenes/zapatilla.jpg",
+        "nombre":"IPHONE 11 128GB",
+        "precio": 850,
+        "img": "./imagenes/iphone11.jpg",
+        "cantidad": 1,
         "id": 5
     },
     {
-        "nombre":"Chomba LACOSTE",
-        "precio": 12000,
-        "img": "./imagenes/chomba.jpg",
+        "nombre":"IPHONE 11 PRO 64GB",
+        "precio": 940,
+        "img": "./imagenes/iphone11pro.jpeg",
+        "cantidad": 1,
         "id": 6
+    },
+    {
+        "nombre":"IPHONE 12 256GB",
+        "precio": 1000,
+        "img": "./imagenes/iphone12.png",
+        "cantidad": 1,
+        "id": 7
+    },
+    {
+        "nombre":"IPHONE 13 MINI 128GB",
+        "precio": 1200,
+        "img": "./imagenes/iphone13mini.png",
+        "cantidad": 1,
+        "id": 8
+    },
+    {
+        "nombre":"IPHONE 14 128GB",
+        "precio": 1500,
+        "img": "./imagenes/iphone14.jpg",
+        "cantidad": 1,
+        "id": 9
+    },
+    {
+        "nombre":"IPHONE 14 PRO MAX 256GB",
+        "precio": 1900,
+        "img": "./imagenes/iphone14promax.jpg",
+        "cantidad": 1,
+        "id": 10
     }
 ]

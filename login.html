@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - IPHONE Ecommerce</title>
+    <link rel="stylesheet" href="./CSS/style-login.css">
+	<!-- toastify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body>
+<div class="container" id="container">
+	<div class="form-container sign-in-container">
+		<form class="form-login">
+			<h1>Logueate</h1>
+			<span>Utiliza tu cuenta</span>
+			<label>
+				<input type="text" placeholder="Usuario" id="user"/>
+				<div id="user_error">Por favor ingresa un usuario o contraseña valida.</div>
+			</label>
+			<label>
+				<input type="password" placeholder="Contraseña" id="password"/>
+			</label>
+			<input type="button" class="ingresar-login" value="Ingresar" onclick="login()">
+			<p>user= "coderhouse"</p>
+			<p>pass= "coder1234"</p>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-right">
+				<h1>¡Hola, inicia sesión!</h1>
+				<p>Inicia sesión para poder realizar pedidos mucho más facil.</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script src="./main.js"></script>
+<!-- toastify -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>

@@ -1,41 +1,133 @@
 .navbar-brand {
-    margin-left: 100px;
+    margin-left: 200px;
     margin-right: 50px;
 }
 
 .new-products {
-    margin: 90px;
+    margin: 100px 20px 20px 90px;
 }
 
 
 .card {
     margin-top: 3em;
     margin-left: 5em;
-    border: 2px solid;
-    border-radius: 8px;
+    border: 0em solid;
+    border-radius: 5px;
+}
+
+.card img {
+    width: 280px;
+    height: 280px;
+}
+
+.card .card-text {
+    color: rgb(46, 45, 45);
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 24px;
 }
 
 
 .btn-añadir {
     border-radius: 4px;
     font-weight: bold;
-    font-size: 18px;
-    border: 2px solid rgba(1, 1, 1, 0.759);
+    font-size: 15px;
+    border: 2px solid rgb(226, 218, 218);
+	background: -webkit-linear-gradient(to right, #2bc3ff, #18b3f1);
+	background: linear-gradient(to right, #2bc3ff, #18b3f1);
+    color: rgb(255, 255, 255);
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .btn-carrito {
-    margin-right: 50px;
-    border: 2px solid rgb(137, 132, 132);
-    border-radius: 10px;
+    margin-right: 200px;
+    border: 2px solid rgb(201, 196, 196);
+    border-radius: 12px;
 }
 
 
 .contenedor-modal {
     display: flex;
-    margin-left: 100px;
+    margin-left: 50px;
     margin-bottom: 70px;
 }
 
 .contenedor-modal .img-carrito {
-    width: 230px;
+    width: 180px;
 }
+
+.cont-buscador{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#buscador{
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 400px;
+    padding: 10px;
+    outline: none;
+    border: 3px solid #CCD1E4;
+    font-weight: 600;
+}
+
+footer{
+    background-color: rgb(16, 16, 17);
+    color: white;
+}
+
+footer .subtitle-footer{
+    color: #2bc3ff;
+}
+
+
+.col-table {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.table {
+    width: 90vw;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+}
+
+#inputSearch {
+    width: 600px;
+    margin-top: 80px;
+    margin-left: 70px;
+    padding: 5px;
+    border: 2px solid rgb(103, 103, 103);
+    border-radius: 5px;
+}
+
+.cant-productos {
+    margin-left: 100px;
+}
+
+
+#show-user {
+    color: white;
+    margin-right: 20px;
+}
+
+
+#btn-login {
+    display: none;
+}
+
+#btn-logout {
+    margin-right: 20px;
+    display: none;
+}
+
